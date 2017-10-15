@@ -1,7 +1,7 @@
 # Docker ELK stack
 
 [![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Elastic Stack version](https://img.shields.io/badge/ELK-5.6.2-blue.svg?style=flat)](https://github.com/deviantony/docker-elk/issues/175)
+[![Elastic Stack version](https://img.shields.io/badge/ELK-5.6.3-blue.svg?style=flat)](https://github.com/deviantony/docker-elk/issues/182)
 [![Build Status](https://api.travis-ci.org/ivanrome/docker-elk.svg?branch=master)](https://travis-ci.org/ivanrome/docker-elk)
 [![CircleCI](https://circleci.com/gh/ivanrome/docker-elk.svg?style=shield&circle-token=dc0f98835c40a0a6040d915b0ffe4af7724b9aea)](https://circleci.com/gh/ivanrome/docker-elk)
 [![Dependency Status](https://dependencyci.com/github/ivanrome/docker-elk/badge)](https://dependencyci.com/github/ivanrome/docker-elk)
