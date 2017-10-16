@@ -8,6 +8,12 @@ jobs:
           name: Start date
           command: date
       - run:
+          name: Install Docker Compose
+          command: |
+            set -x
+            curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-$(uname -s)-$(uname -m) > /usr/local/bin/docker-compose
+            chmod +x /usr/local/bin/docker-compose
+      - run:
           name: Check versions
           command: |
             set -x
