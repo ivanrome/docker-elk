@@ -34,11 +34,11 @@ jobs:
             docker-compose logs
             curl --retry 10 --retry-delay 5 -v http://localhost:9200/
             curl --retry 10 --retry-delay 5 -v http://localhost:5601/
-      - run:
-          name: End date
-          command: date
       - store_artifacts:
           path: /code/test-results
           destination: prefix
+      - run:
+          name: End date
+          command: date
 #https://circleci.com/docs/2.0/docker-compose/
 #https://circleci.com/blog/how-to-build-a-docker-image-on-circleci-2-0/
