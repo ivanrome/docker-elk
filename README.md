@@ -9,6 +9,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/1539f55caf99161ec609/maintainability)](https://codeclimate.com/github/ivanrome/docker-elk/maintainability)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1333/badge)](https://bestpractices.coreinfrastructure.org/projects/1333)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6564ebc03e44377a012e73258536d1b)](https://www.codacy.com/app/ivanrome/docker-elk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ivanrome/docker-elk&amp;utm_campaign=Badge_Grade)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fivanrome%2Fdocker-elk.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fivanrome%2Fdocker-elk?ref=badge_shield)
 
 Run the latest version of the ELK (Elasticsearch, Logstash, Kibana) stack with Docker and Docker Compose.
 
