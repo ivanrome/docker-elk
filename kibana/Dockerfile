@@ -1,5 +1,3 @@
-LABEL maintainer="deviantony"
-
 # https://github.com/elastic/kibana-docker
 FROM docker.elastic.co/kibana/kibana:5.6.3
 
