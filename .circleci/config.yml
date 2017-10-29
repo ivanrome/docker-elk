@@ -33,6 +33,7 @@ jobs:
           name: Starting containers
           command: docker-compose up -d
   test:
+    machine: true
     steps:
       - run:
           name: Check connection
