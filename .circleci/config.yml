@@ -32,7 +32,7 @@ jobs:
       - run:
           name: Starting containers
           command: docker-compose up -d
-  test
+  test:
     steps:
       - run:
           name: Check connection
