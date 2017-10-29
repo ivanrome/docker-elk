@@ -3,7 +3,6 @@ jobs:
   init:
     machine: true
     steps:
-      - checkout
       - run:
           name: Start date
           command: date
@@ -26,6 +25,7 @@ jobs:
   deploy:
     machine: true
     steps:
+      - checkout
       - run:
           name: Building containers
           command: docker-compose build
