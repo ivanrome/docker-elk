@@ -32,6 +32,13 @@ jobs:
       - run:
           name: Starting containers
           command: docker-compose up -d
+      - run:
+          name: Test path
+          command: |
+            pwd
+            ls
+            echo "*************"
+            ls -la
   test:
     machine: true
     steps:
