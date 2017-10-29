@@ -43,6 +43,9 @@ jobs:
             docker-compose logs
             curl --retry 10 --retry-delay 5 -v http://localhost:9200/
             curl --retry 10 --retry-delay 5 -v http://localhost:5601/
+  end:
+    machine: true
+    steps:
       - run:
           name: End date
           command: date
