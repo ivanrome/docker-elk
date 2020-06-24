@@ -1,4 +1,6 @@
-FROM docker.elastic.co/logstash/logstash:5.6.3
+ARG ELK_VERSION
+
+FROM docker.elastic.co/logstash/logstash:${ELK_VERSION}
 
 LABEL maintainer "Elastic Docker Team https://github.com/elastic/logstash-docker"
 
