@@ -1,4 +1,0 @@
-#!/bin/bash
-
-echo "Building $IMAGE_NAME with ELK_VERSION=$ELK_VERSION at $DOCKERFILE_PATH"
-docker build -t $IMAGE_NAME --build-arg ELK_VERSION=$ELK_VERSION $DOCKERFILE_PATH
